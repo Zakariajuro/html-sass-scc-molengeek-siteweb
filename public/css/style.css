@@ -66,12 +66,55 @@ nav .coworking a {
   padding-left: 20px;
 }
 
+section {
+  margin-top: 70px;
+}
 section h1 {
   text-align: center;
+  font-size: 30px;
+  font-weight: bold;
 }
-
 section p {
   margin-left: 40vh;
+}
+section ul {
+  margin-left: 40vh;
+}
+
+section {
+  margin-bottom: 70px;
+}
+section h2 {
+  font-size: 40px;
+  font-weight: bold;
+  margin-left: 40vh;
+}
+
+footer {
+  background-color: #242222b2;
+}
+footer .reseaux {
+  display: flex;
+  justify-content: center;
+}
+footer .reseaux ul {
+  display: flex;
+}
+footer .reseaux ul li {
+  list-style: none;
+}
+footer .reseaux ul a {
+  padding: 1vh;
+  text-decoration: none;
+  color: black;
+}
+
+.copy img {
+  margin-left: 39%;
+}
+
+.copy p {
+  text-align: center;
 }
 
 /*# sourceMappingURL=style.css.map */
